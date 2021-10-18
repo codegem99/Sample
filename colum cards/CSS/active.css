@@ -1,0 +1,125 @@
+body{
+    height: 100vh;
+
+}
+
+
+
+#main{
+    width: 700px;
+    height:60%;
+    color: red ;
+   padding: 0;
+   margin: 0;
+  
+}
+
+
+#left{
+    height: 100%;
+    width:34% ;
+    padding: 1rem;
+    font-size: 15px;
+    background-color: orangered;
+    color: white;
+}
+#image{
+margin-bottom: 1.5rem ;
+}
+
+.upper{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+
+}
+#btn{
+ width: 100%; 
+ display: flex;
+ justify-content: center;
+ 
+}
+#btn input{
+    border-radius: 15px;
+    background-color: white;
+    color: orangered;
+}
+
+#btn input:hover{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+}
+#middle{
+    height: 100%;
+    width:34% ;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    padding: 1rem;
+
+}
+.lower{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    
+
+}
+#luxury{
+    margin-bottom: 1rem;
+}
+.lux{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: white;
+
+}
+#middle #btn input{
+    color:  hsl(184, 100%, 22%);
+  
+}
+#middle #btn {
+    margin-top: 50px;
+
+}
+#middle #btn input:hover{
+    color: white;
+}
+
+#right{
+    height: 100%;
+    width:34% ;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    padding: 1rem;
+
+}
+.lorry{
+    width: 100%; 
+    display: flex;
+    
+       
+}
+.center{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 1rem;
+    color: white;
+   
+
+}
+#right #btn input{
+    color:  hsl(179, 100%, 13%);
+}
+#right #btn input:hover{
+    color:white;
+}
+#right #btn {
+    margin-top: 64px;
+
+}
